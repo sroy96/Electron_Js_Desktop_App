@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron ."
   },
-"repository": "https://github.com/sroy96/Electron_Js_Desktop_App",
+  "repository": "https://github.com/sroy96/Electron_Js_Desktop_App",
   "keywords": [
     "Electron",
     "tutorial",

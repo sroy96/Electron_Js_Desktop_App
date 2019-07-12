@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 
   <head>
@@ -12,22 +12,55 @@
     <div class="container">
       <div class="columns">
         <div class="column col-10">
-          <h1 class="text-center">Add</h1>
-
-          <form id="todoForm">
-            <div class="form-group">
-              <label class="form-label" for="add-input">Employee Adder</label>
-              <input class="form-input" type="text" name="add-input" placeholder="New Emp...">
-            </div>
-
-            <button class="btn">Add </button>
-          </form>
-
+          <h1 class="text-center">Add Employee</h1>
+          <form class="form-horizontal" id="employee-form">
+                  <div class="form-group">
+                    <div class="col-3">
+                      <label class="form-label" for="input-example-8">Employee Code</label>
+                    </div>
+                    <div class="col-9">
+                      <input class="form-input" id="input-example-8" type="text" placeholder="EmployeeCode" value="X12XA">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-3">
+                      <label class="form-label" for="input-example-8">Name</label>
+                    </div>
+                    <div class="col-9">
+                      <input class="form-input" id="input-example-8" type="text" placeholder="Name" value="lorem ipsum">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-3">
+                      <label class="form-label" for="input-example-8">Email</label>
+                    </div>
+                    <div class="col-9">
+                      <input class="form-input" id="input-example-8" type="email" placeholder="Email" value="spectre@example.com" pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-3">
+                      <label class="form-label" for="input-example-11">Phone Number</label>
+                    </div>
+                    <div class="col-9">
+                      <input class="form-input" id="input-example-11" type="tel" placeholder="Phone Number" value="+91 12345 12345">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-3">
+                      <label class="form-label" for="input-example-14">Date Of Joining</label>
+                    </div>
+                    <div class="col-9">
+                      <input class="form-input" id="input-example-14" type="date" value="2016-12-31">
+                    </div>
+                  </div>
+                  <button class="btn" type="submit">Submit</button>
+                </form>
         </div>
       </div>
     </div>
 
-    <script src="./add.js"></script>
+    <script src="./try.js"></script>
   </body>
 
 </html>
